@@ -1,0 +1,32 @@
+.to-do-block {
+    width: 60%;
+}
+.task-container {
+    background-color: rgb(203, 209, 208);
+    border-radius: 10px;
+    padding:25px 10px 10px 10px;
+
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:4px;
+    font-size: 18px;
+    padding:8px 10px 8px 10px;
+    background-color: rgb(49, 161, 143);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
